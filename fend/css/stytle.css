@@ -1,0 +1,73 @@
+body {
+    background-color: #808080;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    min-height: 400px;
+    background-color: aliceblue;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin: 100px auto 100px auto;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"],
+.login-form input[type="date"] {
+    width: 100%;
+    max-width: 320px;
+    padding: 12px 14px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    max-width: 320px;
+    padding: 12px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.2s;
+}
+
+.login-form button[type="button"] {
+    background-color: #7b8a8b;
+}
+
+.login-form button:hover {
+    background-color: #357ab8;
+}
+
+.login-form button[type="button"]:hover {
+    background-color: #5c6e70;
+}
